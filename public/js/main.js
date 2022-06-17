@@ -5,7 +5,7 @@ function delay(time) {
 //Lance la musique et l'histoire et l'FX
 document.getElementById("musicStart").addEventListener("click", function () {
   var soundOrigin = new Howl({
-    src: ["../../public/audio/lune.wav"],
+    src: ["../public/audio/lune.wav"],
     autoplay: true,
     loop: true,
     volume: 0.5,
@@ -15,7 +15,7 @@ document.getElementById("musicStart").addEventListener("click", function () {
   });
   document.getElementById("play").addEventListener("click", function () {
     var fx1 = new Howl({
-      src: ["../../public/audio/fx1.wav"],
+      src: ["../public/audio/fx1.wav"],
       autoplay: true,
       loop: true,
       volume: 2,
