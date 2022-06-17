@@ -1,0 +1,117 @@
+#mainTitle {
+    padding-top: 80px;
+    color: #ffffff;
+}
+
+
+
+
+
+.window {
+    margin-top: 20vh;
+    border-radius: 8px;
+
+}
+
+#musicStart {
+    background-color: #2e2e2e;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#night {
+    background-color: #2e2e2e;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+
+#night:hover {
+    opacity: 1;
+}
+
+#musicStart:hover {
+    opacity: 1;
+}
+
+
+#play {
+    background-color: #2e2e2e;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#play:hover {
+    opacity: 1;
+}
+
+.playButton {
+    float: right;
+    margin-right: 30px;
+    margin-top: -125px;
+}
+
+.night {
+    float: left;
+    margin-left: 30px;
+    margin-top: -125px;
+}
+
+
+body {
+    background-image: url("../img/back.svg");
+    font: 100% Arial, Sans Serif;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#fusee {
+    height: 25vh;
+}
+
+
+
+#container {
+    margin-top: 20vh;
+    border-radius: 8px;
+}
+
+#hidden-div {
+
+    display: none;
+    color: #00a2ff;
+}

@@ -1,0 +1,104 @@
+#mainTitle {
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+.main {
+    margin-top: 40vh;
+}
+
+.window {
+
+    border-radius: 8px;
+
+}
+
+#musicStart {
+    background-color: #1871c2;
+    border: none;
+
+    padding: 10px;
+
+
+
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#storyStart {
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+
+
+
+#musicStart:hover {
+    opacity: 1;
+}
+
+
+#play {
+    background-color: #1871c2;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#play:hover {
+    opacity: 1;
+}
+
+.playButton {
+
+    float: right;
+    margin-right: 30px;
+    margin-top: -35vh;
+}
+
+.playStoryButton {
+    float: left;
+    margin-left: 30px;
+    margin-top: -180px;
+}
+
+
+
+
+
+
+body {
+    overflow: hidden;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
